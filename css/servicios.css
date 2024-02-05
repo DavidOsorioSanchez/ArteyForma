@@ -1,0 +1,103 @@
+body {
+    background-image: url(../img/medicosOperanServicios.jpg);
+    background-attachment: fixed;
+    /* background-size: 100vw; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+/* Mensaje inicial */
+.empresa {
+    text-align: center;
+    margin: 5%;
+}
+
+.principal {
+    font-size: 35px; 
+    color: #58585b; 
+    margin: 0 auto; 
+    text-align: center; 
+    max-width: 600px; 
+    border-bottom: 4px solid #164785;
+    padding: 0 0 10px 0;
+}
+
+.secundario {
+    color: #164785; 
+    font-size: 25px; 
+    font-style: italic; 
+    margin: 10px
+}
+
+.text {
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* Carrusel */
+.carrusel {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    min-width: 100%;
+    object-fit: cover;
+    max-height: 500px;
+}
+
+.imgContenedor{
+    display: flex;
+    justify-items: center !important;
+
+}
+
+
+/* Cards */
+.card-group {
+    margin: 1%;
+    padding: 1%;
+}
+
+.card-title {
+    font-size: 180%;
+    text-align: center;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+/* Cuidados */
+.cuidados {
+    margin: 10%;
+    padding: 2%;
+    border-radius: 20%;
+    /* background-color: rgb(0, 179, 255); */
+    background-image: url(../img/plasticaServicios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 120%; */
+    opacity: 85%;
+}
+
+.titulo {
+    font-size: 700%;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    color: rgb(50, 50, 50)
+}
+
+.link {
+    text-align: center;
+    color: black;
+    font-size: 130%;   
+}
+
+.link:hover {
+    color: whitesmoke;    
+}
+
+

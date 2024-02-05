@@ -1,0 +1,45 @@
+*{
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.contenedor1{
+    width: 60rem;
+
+}
+
+.card{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin: 2px;
+}
+
+.card-img-top{
+    width: 200px;
+    height: auto;
+}
+
+.title{
+    text-align: center;
+    color: #164785; 
+    font-size: 25px; 
+    font-style: italic; 
+}
+
+.subtitulo{
+    text-align: justify;
+    color: black;
+}
+
+.card-title {
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Login</title>
+    
+</head>
+<body class="login">
+    <video autoplay muted loop id="bgvid">
+        <source src="../img/_import_60c59385800033.58370730.mp4" type="video/mp4">
+    </video>
+    <div class="targetaDerecha">
+        <div class="junto">
+            <a href="register.html" class="link">¿No te has registrado?</a>
+            <div class="doble">
+            <div class="arriba">
+                <img src="../img/logoppal.png" alt="icono" class="iconoPrincipal" srcset="">
+                <p class="titulo">Inicia sesión</p>
+            </div>
+
+            <form class="abajo" id="form">
+                <input type="hidden" name="id">
+                <div class="contenedorInput">
+                    <label for="email" class="tituloIzquierda inputName">Email</label>
+                    <input type="email" class="inputDerecha" id="emailLogin" required>
+                </div>
+                <div class="contenedorInput">
+                    <label for="password" class="tituloIzquierda inputName">Contraseña</label>
+                    <input type="password" class="inputDerecha" id="passwordLogin" required>
+                </div>
+                <div class="contenedorInput">
+                  <input type="submit" class="tirar">
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <script src="sweetalert2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/log/login.js"></script>
+    
+
+</body>
+</html>

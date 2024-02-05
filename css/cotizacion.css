@@ -1,0 +1,208 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#header{
+    margin: auto;
+    /* width: 600px; */
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: right;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+    margin: 0;
+    background-color: rgb(rgb(120, 120, 118), rgb(111, 109, 7), rgb(75, 81, 46));
+    width: 100%;
+}
+
+.nav li a{
+    background-color: white ;
+    color: black;
+    text-decoration: none; 
+    padding: 8px 12px;
+    display: block;
+    font-size: 13px;
+}
+
+.encabezado {
+    color: #164785; 
+    font-size: 50px; 
+    font-style: italic; 
+    padding-bottom: 1rem;
+}
+
+/* .nav > li {
+    float: left;
+} */
+
+/* .nav li ul{
+    display:none;
+    position: absolute;
+    min-width: 140px
+} */
+
+/* .nav li:hover > ul{
+    display: block;
+} */
+
+/* .nav li ul li{
+    position: relative;
+}
+
+.nav li ul li ul{
+    right: -140px;
+    top: 0px;
+} */
+
+.containerTable{
+    display: flex;
+    justify-content: right;
+}
+/* 
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin: 2px;
+    max-width: 200px;
+} */
+
+.card {
+    display: flex;  
+    margin: 10px;
+    gap: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.card-img-top {
+    width: 200px;
+    height: auto;
+}
+
+.containerPrincipal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .card-body {
+    padding: 10px;
+} */
+
+/* #contenedor{
+    display: flex;
+} */
+
+ 
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+p{
+    text-align: justify;
+}
+
+h4{
+    text-align: center;
+}
+
+input{
+    background-color: darkgrey;
+    border: 2px;
+    border-radius: 10%;
+}
+
+ tr{
+    border: 2px solid rgb(53, 85, 132);
+ }
+
+
+ .submenu {
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+} 
+
+/* .carrito{
+    position: absolute;
+}
+
+.submenu {
+    position: relative;
+  }
+  
+.submenu #carrito {
+    display: none;
+    color: #000;
+}
+  
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+} */
+
+#carrito {
+    display: none;
+    position: absolute;
+    z-index: 999;
+}
+
+#lista-carrito {
+    background: #fff;
+}
+
+.submenuCarrito {
+
+ color: rgb(102, 185, 185) ;
+}
+
+.submenuCarrito:hover {
+ color: #000 ;
+
+}
+
+.submenuCarrito:hover #carrito {
+    display: block;
+
+}
+.u-pull-right {
+    float: right;
+}
+
+/* .displayNone{
+    display: none !important
+    ;
+} */
+
+@media (min-width: 550px){
+    .two .columns {
+        width: 13.3333333333%;
+    }
+}
+
+/* Ocultar el menú en el display */
+
+/* .menuName {
+    display: none;
+} */

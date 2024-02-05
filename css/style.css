@@ -1,0 +1,169 @@
+/* 
+paleta de colores
+whitesmoke
+#1a5b72
+#6096B4
+#93BFCF
+#2d9ec7
+#BDCDD6
+#EEE9DA
+#F5EEE6
+#04253E
+#D04848
+
+#c72c2c
+#25b86e
+
+
+main
+
+bordes
+#4d9b35
+#3199be
+#25b86e
+
+
+link de la paleta: https://colorhunt.co/palette/6096b493bfcfbdcdd6eee9da
+ */
+ 
+/*cuerpo de la pagina */
+
+main{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    min-height: 800px;
+    top: 0px !important;
+    position: relative;
+    z-index: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedorTargetas{
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    z-index: 0;
+}
+
+.desplegable{
+    z-index: 1;
+}
+video {
+    z-index: -5;
+    object-fit: cover;
+
+    width: 100%;
+    min-height: 100%;
+    max-height: 900px;
+    height: auto;
+    position: absolute;
+    background-size: contain;
+    top: 0px !important;
+    left: 0px;
+}
+
+
+.targeta{
+    border-radius: 20px;
+    width: 30%;
+    max-width: 600px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 350px;
+    padding: 30px;
+    margin: 30px;
+    z-index: 1;
+    backdrop-filter: blur(80px);
+}
+.borde{
+    border: 2px solid  #1a5b72;
+}
+
+.borde:hover{
+    border: none;
+}
+
+
+.imgTargeta{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    z-index: 1;
+    transition: all 0.5s;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.subTargeta{
+    width: 100%;
+    height: 100%;
+}
+
+
+.imgTargeta:hover{
+    opacity: 0;
+}
+
+.infoTargeta{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tituloTargeta{
+    font-size: 60px;
+    text-align: center;
+    color: #93BFCF;
+    text-wrap: nowrap;
+}
+
+#cirugia{
+    font-size: 50px;
+}
+
+.descripcion{
+    font-size: medium;
+    color: black;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgba(245, 245, 245, 0.452);
+}
+
+@media only screen and (max-width: 445px){
+    .targeta{
+        border-radius: 20px;
+        min-width: 100px;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        padding: 5px;
+        word-wrap: break-word;
+    }
+
+    .tituloTargeta{
+        font-size: 30px;
+        padding: 3px;
+    }
+
+    #cirugia{
+        font-size: 30px;
+        padding: 3px;
+        text-wrap: wrap;
+        line-height: 35px;
+    }
+}

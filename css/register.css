@@ -1,0 +1,374 @@
+* {
+    padding: 0%;
+    margin: 0%;
+  }
+
+  /* aviso */
+  
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    height: auto;
+    background-color: #F5EEE6;
+}
+
+
+
+/* aviso inicio */
+.alineador{
+    width: 100vw;
+    height: 100vh;
+    display: flex; /*cambiar a flex*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    background-color: #1a5b72;
+}
+
+.aviso{
+    height: auto;
+    width: 650px;
+    
+    border-radius: 30px;
+    box-shadow: 0px 0px 1000px 100px #93BFCF;
+    padding: 25px;
+    position: absolute;
+    background-color: #EEE9DA;
+    z-index: 6;
+    display: flex; /*cambiar cuando este listo*/
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.tituloAviso{
+    font-size: 50px;
+    text-align: center;
+    color: #93BFCF;
+    text-shadow: 2px 2px #1a5b72;
+    
+}
+
+.informacionAviso{
+    text-align: center;
+    font-size: small;
+}
+
+
+.ir{
+    border: none;
+    background-color: #25b86e;
+    color: whitesmoke;
+    width: 40%;
+    height: 100px;
+    font-size: x-large;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.ir:hover{
+    background-color: #1a5b72;
+    cursor: pointer;
+}
+
+.si{
+    background-color: green;
+}
+
+.no{
+    background-color: #c72c2c;
+    text-wrap: nowrap;
+}
+
+.linkNo{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.linkNo:hover{
+    color: whitesmoke;
+}
+
+.terminos{
+    font-size: medium;
+}
+
+.avisoBotonera{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+}
+
+.avisoBtn{
+    width: 90px;
+    height: 45px;
+    font-size: medium;
+    border: none;
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+
+
+  /* login */
+
+  body {
+    background-image: url(../img/medellin.jpg);
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 100% 100%;
+    height: 100%;
+  }
+
+  video {
+    z-index: -5;
+    object-fit: cover;
+
+    width: 100%;
+    min-height: 100%;
+    max-height: 900px;
+    height: auto;
+    position: absolute;
+    background-size: contain;
+    top: 0px !important;
+    left: 0px;
+}
+  
+  .junto {
+    width: 90%;
+    min-width: 250px;
+    min-height: 60vh;
+    gap: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #eee9da7c;
+  }
+  
+  .targetaIzquierda {
+    padding: 10px;
+    min-width: 300px;
+    width: 50%;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .doble {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .arriba {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    padding: 20px;
+  }
+  .abajo {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .link {
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+    background-color: #1a5b72;
+    color: whitesmoke;
+    text-decoration: none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .link:active {
+    text-decoration: none;
+  }
+  
+  .link:focus {
+    text-decoration: none;
+  }
+  
+  .link:visited {
+    background-color: #93bfcf;
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+  .titulo {
+    font-size: 5rem;
+    font-family: "Zeyada", cursive;
+    color: #93bfcf;
+    text-shadow: 2px 1px #1a5b72;
+    text-wrap: wrap;
+  }
+  
+  .letra {
+    font-size: medium !important;
+  }
+  
+  .iconoPrincipal {
+    width: 40%;
+    min-width: 80px;
+    max-width: 200px;
+    border-radius: 50%;
+  }
+  
+  .contenedorInput {
+    display: flex;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin: none;
+  }
+  
+  .ajustado {
+    width: fit-content;
+  }
+  
+  input {
+    border: none;
+    font-size: large;
+    width: 70%;
+    height: 50px;
+    padding: 10px;
+    border-bottom: 2px solid #ffffff00;
+    transition: all 0.4s ease;
+  }
+  
+  .inputName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    min-height: 50px;
+    min-width: 70px;
+    width: 15%;
+    background-color: #93bfcf;
+    font-size: large;
+    color: whitesmoke;
+  }
+  
+  input:active {
+    border-bottom: 2px solid #93bfcf;
+  }
+  
+  input:focus {
+    border-bottom: 2px solid #1a5b72;
+    outline: none;
+  }
+  
+  .centrar {
+    text-align: center;
+  }
+  
+  .inputDerecha {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .tituloIzquierda {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  select {
+    width: 80%;
+    max-width: 400px;
+    min-width: 200px;
+    height: 60px;
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 20rem;
+  }
+  
+  select:active .default {
+    display: none;
+  }
+  
+  option:hover {
+    background-color: #1a5b72;
+    color: whitesmoke;
+  }
+  
+  .mandar {
+    width: 80%;
+    min-width: 150px;
+    height: 60px;
+    font-size: large;
+    text-align: center;
+    border-radius: 50px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .mandar:hover {
+    background-color: #1a5b72;
+    color: whitesmoke;
+    transform: scale(1.1);
+  }
+  
+  .final {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    gap: 5px;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+  }
+  
+  /*login*/
+  
+  .login {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .targetaDerecha {
+    padding: 10px;
+    min-width: 300px;
+    width: 50%;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media only screen and (max-width: 816px) {
+    .titulo {
+      font-size: 3rem;
+    }
+  
+    .final {
+      flex-direction: column;
+    }
+  }
+  

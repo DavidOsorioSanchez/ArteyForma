@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Registro</title>
+    
+</head>
+<body>
+
+    <!-- principio -->
+    <!-- <div class="alineador">
+        <div class="aviso" data-aos="zoom-in">
+          <p class="tituloAviso">Importante</p>
+          <p class="informacionAviso">Recuerda que para acceder a Esthetic Health es importante que seas mayor de edad, o estés bajo la supervición de un adulto responsable. Consulta los riesgos y beneficios que los procedimientos estéticos te brindarán. Aquí entontrarás los especialistas idóneos para que tu salud y belleza siempre se complementen y logres sentirte mejor contigo. ¡Anímate a conocernos!</p>
+          <a href="../html/terminos.html" target="_blank" class="terminos">Términos y condiciones</a>
+          <div class="avisoBotonera">
+            <button class="avisoBtn no"><a class="linkNo" href="https://www.google.com/">No acepto</a></button>
+            <button class="avisoBtn si">Acepto</button>
+          </div>
+          
+        </div>
+      </div> -->
+        
+    <video autoplay muted loop id="bgvid">
+        <source src="../img/_import_60c59385800033.58370730.mp4" type="video/mp4">
+    </video>
+    <div class="targetaIzquierda">
+        <div class="junto">
+            <a href="login.html" class="link">¿Ya te registraste?</a>
+            <div class="doble">
+            <div class="arriba">
+                <img src="../img/logoppal.png" alt="icono" class="iconoPrincipal" srcset="">
+                <p class="titulo">Registrarse</p>
+            </div>
+
+            <form class="abajo">
+                <div class="contenedorInput">
+                    <label for="name" class="tituloIzquierda inputName" >Nombre</label>
+                    <input type="text" class="inputDerecha" id="nombre" required>
+                </div>
+                <div class="contenedorInput">
+                    <label for="email" class="tituloIzquierda inputName">Email</label>
+                    <input type="email" class="inputDerecha" id="email" required>
+                </div>
+                <div class="contenedorInput">
+                    <label for="password" class="tituloIzquierda inputName">Contraseña</label>
+                    <input type="password" class="inputDerecha" id="password" required>
+                </div>
+                <div class="contenedorInput">
+                    <label for="password" class="tituloIzquierda inputName letra">Confirmar Contraseña</label>
+                    <input type="password" class="inputDerecha" id="passwordConfirmation" required>
+                </div>
+                <div class="contenedorInput">
+                    <label for="age" class="tituloIzquierda inputName">Edad</label>
+                    <input type="number" class="inputDerecha centrar" id="edad" min="18" max="100" required>
+                </div>
+                <div class="final">
+                    <select name="select" id="genero">
+                        <option value="" class="default" selected>Género biológico:</option>
+                        <option value="male">Hombre</option>
+                        <option value="female">Mujer</option>
+                    </select>
+                    <div>
+                        <input type="submit" class="mandar" value="Enviar">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+        
+        
+    </div>
+    <script src="sweetalert2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/aviso.js"></script>
+    <script src="../js/log/register.js"></script>
+    
+    
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../img/medicosOperanServicios.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.titulo {
+    text-align: center;    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.card {
+    border: 1px solid rgb(7, 110, 245);
+    border-radius: 15px;
+    width: 15rem;
+    height: 20rem;
+    padding: 1rem;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.modal .fade .show {
+    z-index: -1 !important;
+    bottom: 0;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #164785; 
+    font-size: 25px; 
+    font-style: italic; 
+}

@@ -1,0 +1,214 @@
+{
+  "procedimientos": [
+    {
+      "id": "1",
+      "categoria": "Rostro",
+      "nombre": "Rinoplastia",
+      "descripcion": "Es la cirugía que logra la remodelación del perfil facial, en ocasiones mejorando la función respiratoria, encargándose de reparar traumatismos o corregir problemas congénitos.",
+      "tiempoCx": "1 a 2 horas",
+      "anestesia": "Regional con sedación",
+      "hospitalizacion": "1 noche",
+      "recuperacion": "15 días"
+    },
+    {
+      "id": "2",
+      "categoria": "Rostro",
+      "nombre": "Bichectomía",
+      "descripcion": "Cirugía de la extracción de las bolas de Bichat, son las glándulas de tejido graso que se encuentran en las mejillas. Estas glándulas no cumplen ninguna función y al extirparlas se consigue afinar y estilizar el rostro.",
+      "tiempoCx": "15 minutos",
+      "anestesia": "Local",
+      "hospitalizacion": "No aplica",
+      "recuperacion": "5 días"
+    },
+    {
+      "id": "3",
+      "categoria": "Rostro",
+      "nombre": "Blefaroplastia",
+      "descripcion": "Procedimientos definitivo para mejorar y retirar las bolsas palpebrales, así como el exceso de piel de los párpados superiores.",
+      "tiempoCx": "45 minutos",
+      "anestesia": "Lidocaína (local)",
+      "hospitalizacion": "Ambulatoria",
+      "recuperacion": "10 días"
+    },
+    {
+      "id": "4",
+      "categoria": "Rostro",
+      "nombre": "Liposucción de papada",
+      "descripcion": "La cirugía facial de contorno cervical, es el procedimiento que ayuda a mejorar el cuello por exceso de grasa, propiciando el refinamiento de este y la línea del mentón.",
+      "tiempoCx": "45 minutos",
+      "anestesia": "Lidocaína (local)",
+      "hospitalizacion": "1 noche",
+      "recuperacion": "1 semana"
+    },
+    {
+      "id": "5",
+      "categoria": "Rostro",
+      "nombre": "Otoplastia",
+      "descripcion": "Es la cirugía en la cual se resuelven las deformidades de la oreja; pueden ser muy variadas desde la ausencia total de la oreja (microtia) a simplemente una proyección muy notable por la ausencia del antehelix o el helix.",
+      "tiempoCx": "45 minutos",
+      "anestesia": "Lidocaína (local)",
+      "hospitalizacion": "No aplica",
+      "recuperacion": "1 semana"
+    },
+    {
+      "id": "6",
+      "categoria": "Cuerpo",
+      "nombre": "Liposucción",
+      "descripcion": "Es un procedimiento quirúrgico en el que se succiona o extrae la grasa corporal. No se trata de un tratamiento para adelgazar, sino para eliminar grasa rebelde de una determinada zona, por lo que los candidatos a este tratamiento deben estar dentro de un 30% de su peso ideal.",
+      "tiempoCx": "1 hora y media",
+      "anestesia": "Regional con sedación",
+      "hospitalizacion": "1 noche",
+      "recuperacion": "15 días"
+    },
+    {
+      "id": "7",
+      "categoria": "Cuerpo",
+      "nombre": "Lipoescultura",
+      "descripcion": "Es conocida también como el moldeamiento corporal, ya que extrae los adipocitos de grasa, piel y músculo mejorando la forma del cuerpo de manera permanente. De esta manera, se consigue una silueta más proporcionada, eliminando el tejido adiposo que no se ha podido eliminar con dieta ni ejercicio.",
+      "tiempoCx": "1 hora y media",
+      "anestesia": "Regional con sedación",
+      "hospitalizacion": "1 noche",
+      "recuperacion": "15 días"
+    },
+    {
+      "id": "8",
+      "categoria": "Cuerpo",
+      "nombre": "Gluteoplastia",
+      "descripcion": "También conocido como aumento de glúteos es un procedimiento estético que tiene como fin elevar y remodelar los glúteos, el principal objetivo es ofrecer al paciente unos glúteos naturales. De acuerdo a las expectativas del paciente y el especialista deben elegir la técnica para asegurar los resultados. Las técnicas más comunes en la actualidad son la gluteoplastia con implantes o la lipoinyección glútea o también llamada lipotransferencia. En ocasiones se combinan las dos técnicas para lograr mayor efectividad.",
+      "tiempoCx": "3 horas",
+      "anestesia": "Regional con sedación",
+      "hospitalizacion": "48 horas",
+      "recuperacion": "8 a 10 días"
+    },
+    {
+      "id": "9",
+      "categoria": "Cuerpo",
+      "nombre": "Cirugía bariátrica",
+      "descripcion": "Procedimiento que ayuda a las personas obesas a adelgazar, cambiando el funcionamiento del sistema digestivo. Esta cirugía ayuda a controlar la diabetes e hipertensión, teniendo como una ventaja la realización de este procedimiento.",
+      "tiempoCx": "1 hora y media",
+      "anestesia": "General o regional",
+      "hospitalizacion": "3 a 4 días",
+      "recuperacion": "3 semanas a 2 meses"
+    },
+    {
+      "id": "10",
+      "categoria": "Cuerpo",
+      "nombre": "Abdominoplastia",
+      "descripcion": "Es el procedimiento que remueve el exceso de piel y grasa que se acumula en el abdomen como consecuencia de los embarazos, obesidad y la edad.",
+      "tiempoCx": "2 horas",
+      "anestesia": "Regional con sedación",
+      "hospitalizacion": "1 noche",
+      "recuperacion": "15 días"
+    },
+    {
+      "id": "11",
+      "categoria": "Senos",
+      "nombre": "Mamoplastia de aumento",
+      "descripcion": "Es la intervención que consiste en colocar un implante de silicona detrás del tejido mamario o debajo del músculo para dar tamaño, forma y volumen al seno.",
+      "tiempoCx": "1 a 2 horas",
+      "anestesia": "Bloqueo regional",
+      "hospitalizacion": "1 noche",
+      "recuperacion": "15 días"
+    },
+    {
+      "id": "12",
+      "categoria": "Senos",
+      "nombre": "Mamoplastia reductora",
+      "descripcion": "Es la intervención que se realiza con la finalidad de corregir la hipertrofia mamaria (disminuir volumen y peso del seno), mediante la realización quirúrgica se retira el exceso de tejido y flacidez de las mamas.",
+      "tiempoCx": "2 a 4 horas",
+      "anestesia": "Epidural",
+      "hospitalizacion": "1 noche",
+      "recuperacion": "15 a 21 días"
+    },
+    {
+      "id": "13",
+      "categoria": "Senos",
+      "nombre": "Mastopexia",
+      "descripcion": "El principal objetivo de este tratamiento es eliminar la flacidez y la posición de los senos. De acuerdo con la necesidad y el objetivo del paciente es posible que se realice un levantamiento de senos con o sin prótesis. En cualquier caso esta cirugía mejora y rejuvenece los senos.",
+      "tiempoCx": "1 a 2 horas",
+      "anestesia": "Sedación",
+      "hospitalizacion": "Ambulatoria",
+      "recuperacion": "10 días"
+    },
+    {
+      "id": "14",
+      "categoria": "Senos",
+      "nombre": "Reconstrucción mamaria",
+      "descripcion": "Esta cirugía tiene como principal objetivo restaurar la forma, simetría y tamaño de la mama tras una mastectomía, cuadrantectomía o tumorectomía. Después de estas cirugías que incluso pueden ser para retirar tumores benignos o de origen infeccioso, la mama puede quedar con secuelas como la extirpación completa del pecho, hundimientos, cicatrices y formas no simétricas, ni naturales.",
+      "tiempoCx": "1 a 2 horas",
+      "anestesia": "General",
+      "hospitalizacion": "1 noche",
+      "recuperacion": "6 a 8 semanas"
+    },
+    {
+      "id": "15",
+      "categoria": "Senos",
+      "nombre": "Ginecomastia",
+      "descripcion": "La ginecomastia es un sobre desarrollo en las mamas de los hombres causada por un desarrollo excesivo de las glándulas mamarias o por un exceso de tejido adiposo y puede causar graves molestias y vergüenza. Esta imperfección afecta a más del 40% de la población mundial masculina.",
+      "tiempoCx": "1 hora y media",
+      "anestesia": "Sedación",
+      "hospitalizacion": "1 noche",
+      "recuperacion": "15 días"
+    },
+    {
+      "id": "16",
+      "categoria": "Dermatológico",
+      "nombre": "Ácido hialurónico",
+      "descripcion": "Los tratamientos a base de ácido hialurónico están indicados principalmente para el rejuvenecimiento de la piel, ya que hidratan y dan firmeza y elasticidad a los tejidos. Los productos con ácido hialurónico también tienen una acción de relleno (filler) que garantiza un aumento de volumen en la zona tratada, como los labios o los pómulos. Sus efectos son limitados en el tiempo y por ello es totalmente compatible con el organismo.",
+      "tiempoCx": "10 a 30 minutos",
+      "anestesia": "Lidocaína",
+      "hospitalizacion": "No aplica",
+      "recuperacion": "10 días"
+    },
+    {
+      "id": "17",
+      "categoria": "Dermatológico",
+      "nombre": "Botox",
+      "descripcion": "La toxina botulínica es una sustancia reabsorbible que se utiliza en medicina estética para atenuar las líneas o arrugas de expresión, su función es paralizar un poco el músculo, evitando que la arruga tenga su movimiento normal. También se puede utilizar el bótox con fines médicos para tratar algunas enfermedades neurológicas como por ejemplo, la migraña.",
+      "tiempoCx": "20 minutos",
+      "anestesia": "Local",
+      "hospitalizacion": "No aplica",
+      "recuperacion": "Inmediato"
+    },
+    {
+      "id": "18",
+      "categoria": "Dermatológico",
+      "nombre": "Rejuvenecimiento facial",
+      "descripcion": "Estos tienen como objetivo eliminar las arrugas y mejorar la flacidez del rostro. En algunos casos, es posible rejuvenecer la piel del rostro con tratamientos no invasivos y en otros, hay que recurrir a la cirugía estética. Será el profesional o especialista quien decida qué opción será mejor para cada paciente dependiendo de los resultados esperados y el estado de la piel.",
+      "tiempoCx": "1 hora y media a 2 horas",
+      "anestesia": "Local",
+      "hospitalizacion": "Ambulatoria o de 24 a 48 horas",
+      "recuperacion": "15 días"
+    },
+    {
+      "id": "19",
+      "categoria": "Dermatológico",
+      "nombre": "Peeling",
+      "descripcion": "Este es un tratamiento médico no quirúrgico, ideal para eliminar impurezas y células muertas; el cual mediante agentes químicos permite descamar y exfoliar la piel, brindando un efecto de mayor luminosidad y elasticidad renovando la matriz dérmica. A través del peeling es posible eliminar manchas en la piel, algunas arrugas, signos de acné, poros abiertos, estrías, entre otros. Es un tratamiento fundamentalmente facial, pero que también puede usarse corporalmente.",
+      "tiempoCx": "10 minutos",
+      "anestesia": "No aplica",
+      "hospitalizacion": "Ambulatoria",
+      "recuperacion": "15 días"
+    },
+    {
+      "id": "20",
+      "categoria": "Dermatológico",
+      "nombre": "Tratamiento para el acné",
+      "descripcion": "El acné es una enfermedad de la piel muy común. Se debe a la inflamación de las glándulas sebáceas y se presenta principalmente en zonas de la cara como la frente, la nariz y la mejillas, así como en la espalda. Es muy común entre los adolescentes, pero también se presenta en la edad adulta, el cual se denomina acné tardío. Las opciones de tratamiento para tratar el acné son numerosas.",
+      "tiempoCx": "1 hora",
+      "anestesia": "No aplica",
+      "hospitalizacion": "Ambulatoria",
+      "recuperacion": "Inmediato"
+    }
+  ],
+  "users": [
+    {
+      "id": "672f",
+      "name": "Alberta",
+      "age": "31",
+      "email": "al123@gmail.com",
+      "password": "Ale123456*",
+      "gender": "female"
+    }
+  ]
+}

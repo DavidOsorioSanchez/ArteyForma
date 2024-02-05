@@ -1,0 +1,43 @@
+*{
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+}
+.mainNosotros{
+    width: 100%;
+    /* min-height: 700px; */
+    height: auto;
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    align-items: initial;
+    flex-wrap: wrap;
+}
+
+.contenedorPrincipal{
+    margin: 20px;
+    width: 50rem;
+    justify-content: center ;
+}
+
+.card{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.cardNosotros{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin: 2px;
+
+}
+
+.img{
+    vertical-align: middle;
+    border-style: none;
+    padding: 30px;
+    border-radius: 10%;
+}

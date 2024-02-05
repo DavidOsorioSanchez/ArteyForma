@@ -1,0 +1,30 @@
+body {
+    background-image: url(../img/logoppal.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.card-info { 
+   margin: 50px;
+   border: 1px solid black;   
+   background-color: #eefbff;
+   border-radius: 5px;
+}
+
+.card-header {
+    color: #164785; 
+    font-size: 25px; 
+    font-style: italic; 
+    margin: 10px;
+    text-align: center;    
+}
+
+.card-title {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.card-text {
+    text-align: justify;
+}

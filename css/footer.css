@@ -1,0 +1,197 @@
+/* 
+.pie-pagina{
+    width: 100%;
+    background-color: #0a1410;
+}
+
+.pie-pagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3);
+    grid-gap: 50px;
+    padding: 25px 0px;
+}
+
+.pie-pagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo1 .box figure img{
+    width: 250px;
+}
+
+.pie-pagina .grupo1 h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo1 .box p{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo1 .redsocial a{
+    display: inline-block;
+    text-decoration: noen;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms;
+}
+
+.pie-pagina .grupo1 .redsocial a:hover{
+    color: aqua;
+}
+
+.pie-pagina .grupo2{
+    background-color: #0a1a2a;
+    padding: 15px 0px;
+    text-align: center;
+    color: white;
+}
+
+.pie-pagina .grupo2 small{
+    font-size: 15px;
+} */
+
+
+footer{
+    background-image: linear-gradient(to bottom right, #93BFCF, #1a5b72);
+    margin: 0px;
+    border-top: 3px solid #EEE9DA;
+    padding: 40px 10px  10px 10px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap:  20px !important;
+}
+
+.iconFooter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 3rem;
+}
+
+.iconRedes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 50px;
+    color: whitesmoke;
+    transition: all 0.3s ease;
+}
+
+
+.iconRedes:hover{
+    transform: scale(1.2);
+}
+
+.fa-facebook-f{
+    background-color: #4267B2;
+    animation: icono normal 0.5s;
+}
+
+.fa-twitter{
+    background-color: #1DA1F2;
+    animation: icono normal 0.7s;
+}
+
+.fa-instagram{
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    animation: icono normal 0.9s;
+}
+
+.fa-whatsapp{
+    background-color: #25D366;
+    animation: icono normal 1.1s;
+}
+
+@keyframes icono {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.infoFooter{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imgFooter{
+    max-width: 8rem;
+    width: 100%;
+    height: auto;
+    border-radius: 100px;
+}
+
+.infoContacto{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloContacto{
+    text-align: center;
+    font-size: large;
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.subInfo{
+    color: whitesmoke;
+    padding: 10px 0px 0px 15px;
+    text-align: start;
+    text-wrap: nowrap;
+}
+
+.textoInfo{
+    transition: all 0.5s ease;
+}
+
+.textoInfo:hover{
+    transform: skewX(20deg);
+    transform: translate(10px, 0px);
+}
+
+.copyright{
+    text-align: center;
+    color: whitesmoke;
+    font-size: small;
+}
+
+@media only screen and (max-width: 366px){
+    .iconFooter{
+        gap: 2rem;
+    }
+}

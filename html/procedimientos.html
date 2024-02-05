@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="../img/Logo Estetica Corporal y Facial Minimalista Blanco y Negro-modified.png"
+    type="image/x-icon" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/navbar.css" />
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/procedimientos.css">
+  <title>Procedimientos</title>
+</head>
+
+<body>
+
+
+  <!-- navbar -->
+  <nav class="nav" data-aos="fade-down">
+    <div class="primeraBarra">
+      <a href="#Footer" class="aDelete"><i class="fa-solid fa-envelope"> Contactanos</i></a>
+      <i class="fa-solid fa-location-dot"> Medellin</i>
+      <i class="fa-solid fa-phone"> Telefono</i>
+      <i class="fa-solid fa-clock" id="reloj"></i>
+    </div>
+    <div class="segundaBarra">
+      <div class="contenedorTitulo">
+        <img src="../img/logoppal.png" alt="iconoPrincipal" class="iconoPrincipal">
+        <p class="titulo">Esthetic Health</p>
+      </div>
+      <div class="botonera">
+        <button class="botonNav noMargen"><a href="index.html" class="botonNav linkB">Inicio</a></button>
+        <button class="botonNav noMargen"><a href="Nosotros.html" class="botonNav linkB">Nosotros</a></button>
+        <div class="servicios">
+          <a href="servicios.html">
+            <p class="botonNav BtnServicio">Servicios</p>
+          </a>
+
+          <div class="desplegable">
+            <a href="../html/procedimientos.html">
+              <p class="listaOpciones valoracion">Procedimientos</p>
+            </a>
+            <a href="../html/examenes.html">
+              <p class="listaOpciones examenes">Exámenes médicos</p>
+            </a>
+            <a href="../html/especialistas.html">
+              <p class="listaOpciones especialistas">Especialistas</p>
+            </a>
+          </div>
+        </div>
+        <button class="botonNav noMargen"><a href="cotizacion.html" class="botonNav linkB">Cotización</a></button>
+        <button class="botonNav noMargen"><a href="Registro.html" class="botonNav linkB">Login</a></button>
+        <i class="fa-solid fa-align-justify hamburguesa" id="hamburguesa"></i>
+      </div>
+    </div>
+    <div class="terceraBarra">
+      <button class="botonNav habilitar noMargen"><a href="index.html"
+          class="botonNav habilitar linkB">Inicio</a></button>
+      <button class="botonNav habilitar noMargen"><a href="Nosotros.html"
+          class="botonNav habilitar linkB">Nosotros</a></button>
+      <div class="servicios">
+        <a href="servicios.html"></a>
+        <p class="botonNav habilitar BtnServicio">Servicios</p>
+        <div class="desplegable">
+          <a href="../html/procedimientos.html">
+            <p class="listaOpciones valoracion">Procedimientos</p>
+          </a>
+          <a href="../html/examenes.html">
+            <p class="listaOpciones examenes">Exámenes médicos</p>
+          </a>
+          <a href="../html/especialistas.html">
+            <p class="listaOpciones especialistas">Especialistas</p>
+          </a>
+        </div>
+      </div>
+      <button class="botonNav habilitar noMargen"><a href="cotizacion.html"
+          class="botonNav habilitar linkB">Cotización</a></button>
+      <button class="botonNav habilitar noMargen"><a href="Registro.html"
+          class="botonNav habilitar linkB">Registro</a></button>
+    </div>
+  </nav>
+
+  <!-- Card Rostro -->
+  <br><br>
+  <section class="cards-container">
+    <h2 class="titulo">Rostro</h2>
+    <div class="container Rostro"><!-- <div class="row row-cols-1 row-cols-md-2 g-4"> -->
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/narizProcedimientos.jpg" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body" id="cBody">
+            <h5 class="card-title">Rinoplastia</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" id="card1"
+              class="btn btn-info btn-open-modal" data-name="Rinoplastia">Ver más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/bicheProcedimientos.jpg" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bichectomía (Mejillas)</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Bichectomía">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/blefaProcedimientos.jpg" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Blefaroplastia (Párpados)</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Blefaroplastia">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/lipopapada.jpg" class="card-img-top" style="width: 100%; height: 10rem ; object-fit: cover;"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Liposucción de papada</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Liposucción de papada">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/otoplastiaProcedimientos.jpg" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Otoplastia (Orejas)</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Otoplastia">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card Cuerpo   -->
+    <br><br>
+    <h2 class="titulo">Cuerpo</h2>
+    <div class="container"><!-- <div class="row row-cols-1 row-cols-md-2 g-4"> -->
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/liposuccionProcedimientos.jpg" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Liposucción</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Liposucción">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/lipoesculturaProcedimientos.jpg" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lipoescultura</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Lipoescultura">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/gluteosProcedimientos.jpg" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gluteoplastia</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Gluteoplastia">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/bariatricaProcedimientos.jpg" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cirugía bariátrica</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Cirugía bariátrica">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/abdominoplastiaProcedimientos.jpg" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Abdominoplastia</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Abdominoplastia">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+    <h2 class="titulo">Senos</h2>
+    <div class="container"><!-- <div class="row row-cols-1 row-cols-md-2 g-4"> -->
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/mamoplastiadeaumentoProcedimientos.jpg" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mamoplastia de aumento</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Mamoplastia de aumento">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/mamoplastiadeReduccionProcedimientos.jpg" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mamoplastia reductora</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Mamoplastia reductora">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/mastopexiaProcedimientos.avif" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mastopexia</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Mastopexia">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/reconstrucciónmamariaProcedimientos.jpg" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class=" ">Reconstrucción mamaria</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Reconstrucción mamaria">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/ginecomastiaProcedimientos.jpg" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ginecomastia</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Ginecomastia">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <br><br>
+    <h2 class="titulo">Dermatológicos</h2>
+    <div class="container"><!-- <div class="row row-cols-1 row-cols-md-2 g-4"> -->
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/acidoHialuronicoProcedimientos.jpg" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ácido hialurónico</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Ácido hialurónico">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/botoxProcedimientos.jpg" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Botox</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Botox">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/rejuvenecimientoFacialProcedimientos.jpg" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rejuvenecimiento facil</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Rejuvenecimiento facial">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/peelingProcedimientos.jpg" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Peeling</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Peeling">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/ttoAcnéProcedimientos.jpg" class="card-img-top"
+            style="width: 100%; height: 10rem ; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tratamiento para el acné</h5>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info btn-open-modal" data-name="Tratamiento para el acné">Ver
+              más</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <!-- Button trigger modal -->
+  <!-- <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary"
+    data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button> -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <!-- <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn-close"
+            data-bs-dismiss="modal"></button> -->
+        </div>
+        <div class="modalBodyCard p-3" id="content-modal">
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-secondary"
+            data-bs-dismiss="modal">Cerrar</button>
+          <a href="../html/cotizacion.html"><button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary">Cotización</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- footer -->
+
+  <br><br>
+  <footer>
+    <div class="iconFooter">
+      <i class="fa-brands fa-facebook-f iconRedes"></i>
+      <i class="fa-brands fa-twitter iconRedes"></i>
+      <i class="fa-brands fa-instagram iconRedes"></i>
+      <i class="fa-brands fa-whatsapp iconRedes"></i>
+    </div>
+    <div class="infoFooter">
+      <img src="../img/logoppal.png" alt="icono principal" class="imgFooter">
+      <div class="infoContacto">
+        <p class="tituloContacto" id="Footer">Contactanos</p>
+        <div class="subInfo">
+          <p class="textoInfo"><i class="fa-solid fa-arrow-right"></i> Asesores</p>
+          <p class="textoInfo"><i class="fa-solid fa-arrow-right"></i> Personal del hotel</p>
+          <p class="textoInfo"><i class="fa-solid fa-arrow-right"></i> Nuestros programadores</p>
+        </div>
+      </div>
+      <div class="infoContacto">
+        <p class="tituloContacto">Contactanos</p>
+        <div class="subInfo">
+          <p class="textoInfo"><i class="fa-solid fa-arrow-right"></i> Asesores</p>
+          <p class="textoInfo"><i class="fa-solid fa-arrow-right"></i> Personal del hotel</p>
+          <p class="textoInfo"><i class="fa-solid fa-arrow-right"></i> Nuestros programadores</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright"><i class="fa-solid fa-copyright"></i> Todos los derechos de autor estan reservados a Riwi -
+      2023.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <script src="../js/app.js"></script>
+  <script src="../js/procedimientos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

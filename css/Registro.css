@@ -1,0 +1,83 @@
+body{
+        border: 0%;
+        margin: 0%;
+        padding: 0%;
+        height: auto;
+        width: 100%;
+        background-image: url("../img/fondoPagPrincipal.jpg"); 
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        object-fit: cover;
+        
+}
+
+.Contenedor{
+        border: 5px solid rgba(0, 0, 0, 0.401);
+        background-color: rgba(245, 245, 245, 0.274);
+        border-radius: 5%;
+        margin: 10rem;
+        width: 50%;
+        max-width: 700px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        opacity: 0.6;
+        
+}
+
+.contenedorImg{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 3rem;
+}
+
+.imagIcono{
+        border-radius: 50%;
+        width: 300px;
+        height: auto;
+        opacity: 0.8;
+
+}
+
+.form-control{
+        height: auto;
+}
+
+.title{
+        color: rgb(71, 152, 187);
+        text-align: center;
+}
+
+.input-group-text{
+        background-color: rgba(168, 167, 167, 0.895);
+        padding: 5px;
+        border-radius: 5%;
+}
+
+.h1{
+        text-align: center;
+        
+}
+
+.selectSing{
+        font-size: xx-large;
+}
+
+.butn{
+        background-color: rgba(0, 0, 0, 0.575);
+        color: aliceblue;
+        border-radius: 10%;
+}
+
+.iniciaSesion{
+        color:  rgb(71, 152, 187);
+        align-items: center;
+        text-align: center;
+}
+
+.h3{
+        color: aliceblue;
+        align-items: center;
+}

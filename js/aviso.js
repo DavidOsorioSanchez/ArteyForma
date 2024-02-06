@@ -2,14 +2,14 @@
 
 const si = document.querySelector(".si");
 
-si.disabled = false;
+si.disabled = true;
 
 document.querySelector(".terminos").addEventListener("click", ()=>{
-    si.disabled = true;
+    si.disabled = false;
     si.style = "background-color: #25b86e;"
 })
 
 si.addEventListener("click", ()=>{
-    document.querySelector(".aviso").style = "display: flex" 
-    document.querySelector(".alineador").style = "display: flex" 
+    document.querySelector(".aviso").style = "display: none" 
+    document.querySelector(".alineador").style = "display: none" 
 })

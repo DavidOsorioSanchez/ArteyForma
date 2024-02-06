@@ -1,11 +1,6 @@
-* {
-    padding: 0%;
-    margin: 0%;
-  }
-
-  /* aviso */
+/* aviso */
   
-  *{
+*{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -21,8 +16,9 @@ body{
 
 /* aviso inicio */
 .alineador{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+    min-height: 115vh;
     display: flex; /*cambiar a flex*/
     position: absolute;
     top: 0px;
@@ -123,13 +119,10 @@ body{
   /* login */
 
   body {
-    background-image: url(../img/medellin.jpg);
     display: flex;
     justify-content: center;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    background-size: 100% 100%;
-    height: 100%;
+    align-items: center;
+    min-height: 100%;
   }
 
   video {
@@ -137,11 +130,10 @@ body{
     object-fit: cover;
 
     width: 100%;
-    min-height: 100%;
-    max-height: 900px;
+    min-height: 110vh;
     height: auto;
     position: absolute;
-    background-size: contain;
+    background-size: 100% 100%;
     top: 0px !important;
     left: 0px;
 }
@@ -163,7 +155,8 @@ body{
     padding: 10px;
     min-width: 300px;
     width: 50%;
-    height: 98vh;
+    min-height: 98vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -345,18 +338,20 @@ body{
     height: auto;
   }
   
+  .tirar{
+    border-radius: 30px;
+    transition: all 0.5s ease;
+  }
+
+  .tirar:hover{
+    background-color: #1a5b72;
+    color: whitesmoke;
+    transform: scale(1.1);
+  }
+
   /*login*/
   
   .login {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .targetaDerecha {
-    padding: 10px;
-    min-width: 300px;
-    width: 50%;
-    height: 98vh;
     display: flex;
     justify-content: center;
     align-items: center;
